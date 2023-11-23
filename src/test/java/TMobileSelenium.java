@@ -13,7 +13,7 @@ public class TMobileSelenium {
     static WebDriver driver;
     private static WebDriverWait wait;
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
